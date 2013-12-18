@@ -1,0 +1,17 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\NOTES.js">
+    <Files>
+      <File FileName="Assets\Scripts\LevelBuilder.cs" Line="128" Column="114" />
+      <File FileName="Assets\Scripts\CollectableScript.cs" Line="50" Column="7" />
+      <File FileName="Assets\Scripts\StaticLevelScript.cs" Line="18" Column="27" />
+      <File FileName="Assets\Shaders\PhongTes.shader" Line="30" Column="27" />
+      <File FileName="Assets\Shaders\PerPixelLight.shader" Line="116" Column="20" />
+      <File FileName="Assets\Scripts\NOTES.js" Line="4" Column="57" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

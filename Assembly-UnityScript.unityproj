@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{0EA9B7D3-5FCD-B90D-9248-BC1CEC5E5C7D}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_1;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\NOTES.js" />
+     <Compile Include="Assets\ats Package\Demoscene\Controller\flyControllerScript.js" />
+     <Compile Include="Assets\ats Package\ats vertexLitShader Package\Script\setupVertexLitShader.js" />
+     <None Include="Assets\Build-In Shaders\DefaultResourcesExtra\Nature\TreeCreator\TreeVertexLit.cginc" />
+     <None Include="Assets\Shaders\TesalationShdr.shader" />
+     <None Include="Assets\ats Package\Demoscene\Terrain\UnityTerrainBump\TerrainReplacement.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResourcesExtra\Mobile\Mobile-Particle-Alpha-VertexLit.shader" />
+     <None Include="Assets\Shaders\QuadTess.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Reflect-Diffuse.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Illumin-Parallax.shader" />
+     <None Include="Assets\Shaders\LenghtBaseTes.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResourcesExtra\Nature\TreeCreator\TreeCreatorBarkOptimized.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Particle Premultiply Blend.shader" />
+     <None Include="Assets\Shaders\Bilboards\GeomShader.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Internal-BlitCopy.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Alpha-Bumped.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResourcesExtra\Mobile\Mobile-Particle-Multiply.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Normal-ParallaxSpec.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResourcesExtra\Nature\Terrain\TerrBumpAddPass.shader" />
+     <None Include="Assets\Shaders\Leaves.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResourcesExtra\Nature\SoftOcclusion\TreeSoftOcclusionBarkRendertex.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResourcesExtra\Nature\TreeCreator\TreeCreatorBarkRendertex.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\TerrainShaders\Details\VertexLit.shader" />
+     <None Include="Assets\Shaders\PostProcess\GlitchShader.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Reflect-BumpVertexLit.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Internal-PrePassLighting.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Shadow-ScreenBlurRotated.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Decal.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Internal-CombineDepthNormals.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Camera-DepthTexture.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResourcesExtra\Mobile\Mobile-VertexLit.shader" />
+     <None Include="Assets\Shaders\Simple Tess PN.shader" />
+     <None Include="Assets\ats Package\ats treeBarkShader Package\Shader\SH-Tree Bark rendertex.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Alpha-ParallaxSpec.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResourcesExtra\Nature\SoftOcclusion\TreeSoftOcclusionLeaves.shader" />
+     <None Include="Assets\Shaders\GeomShader.shader" />
+     <None Include="Assets\ats Package\ats treeBarkShader Package\Shader\BillboardTree.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Reflect-Parallax.shader" />
+     <None Include="Assets\ats Package\ats pathShader Package\Shader\ats Road Path bumped diffuse alphatest.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResourcesExtra\Nature\TreeCreator\TreeCreatorLeaves.shader" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Internal-GUITextureBlit.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResourcesExtra\Mobile\Mobile-BumpSpec-1DirectionalLight.shader" />
+     <None Include="Assets\Shaders\TesalationShdr 1.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Camera-DepthNormalTexture.shader" />
+     <None Include="Assets\ats Package\readme_vertexLitShader.txt" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Reflect-BumpSpec.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResourcesExtra\Nature\TreeCreator\TreeCreatorLeavesOptimized.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResourcesExtra\Nature\TreeCreator\Tree.cginc" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Alpha-Parallax.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Particle Add.shader" />
+     <None Include="Assets\Shaders\ShaderSW_Floor.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Internal-Flare.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResourcesExtra\Nature\TreeCreator\TreeCreatorBark.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResourcesExtra\Lightmap-Glossy.shader" />
+     <None Include="Assets\Shaders\LenghtBaseTes 1.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\TerrainShaders\Splats\FirstPass.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Shadow-ScreenBlur.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Particle Multiply.shader" />
+     <None Include="Assets\Shaders\Bilboards\PartShadr.shader" />
+     <None Include="Assets\Build-In Shaders\CGIncludes\HLSLSupport.cginc" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Normal-DiffuseFast.shader" />
+     <None Include="Assets\Build-In Shaders\CGIncludes\UnityCG.cginc" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-SimpleWater4.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\TerrainShaders\Splats\AddPass.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Normal-VertexLit.shader" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\ats Package\ats treeBarkShader Package\Shader\Tree.cginc" />
+     <None Include="Assets\Build-In Shaders\DefaultResourcesExtra\Unlit\Unlit-Normal.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\AlphaTest-Glossy.shader" />
+     <None Include="Assets\ats Package\ats vertexLitShader Package\Shader\ats VertexLit.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Flare.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\AlphaTest-Diffuse.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\AlphaTest-VertexLit.shader" />
+     <None Include="Assets\ats Package\ats treeBarkShader Package\Shader\SH_Vertex.cginc" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Illumin-Bumped.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Alpha-BumpSpec.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Reflect-Bumped.shader" />
+     <None Include="Assets\Shaders\treeWind.shader" />
+     <None Include="Assets\Build-In Shaders\CGIncludes\Lighting.cginc" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Internal-GUITextureClipText.shader" />
+     <None Include="Assets\Shaders\RimLight\soundRimLight.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResourcesExtra\Mobile\Mobile-Particle-Alpha.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Illumin-ParallaxSpec.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Internal-Halo.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\TerrainShaders\Trees\BillboardTree.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\skybox cubed.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Reflect-ParallaxSpec.shader" />
+     <None Include="Assets\Shaders\Displasment.shader" />
+     <None Include="Assets\Shaders\MultLightRim.shader" />
+     <None Include="Assets\Shaders\FixTess.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResourcesExtra\Lightmap-BumpSpec.shader" />
+     <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResourcesExtra\Mobile\Mobile-VertexLit-OnlyDirectionalLights.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Normal-Parallax.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResourcesExtra\Mobile\Mobile-Skybox.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Normal-BumpSpec.shader" />
+     <None Include="Assets\Shaders\Bilboards\Transparent.shader" />
+     <None Include="Assets\Shaders\PerPixelLight.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Reflect-BumpNolight.shader" />
+     <None Include="Assets\ats Package\ats treeBarkShader Package\Shader\ats SH-Tree Bark.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Internal-GUITextureClip.shader" />
+     <None Include="Assets\Shaders\FloorLevitScript.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResourcesExtra\Nature\TreeCreator\TreeCreatorLeavesFast.shader" />
+     <None Include="Assets\Build-In Shaders\CGIncludes\Tessellation.cginc" />
+     <None Include="Assets\Build-In Shaders\DefaultResourcesExtra\Nature\SoftOcclusion\TreeSoftOcclusionBark.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Particle VertexLit Blended.shader" />
+     <None Include="Assets\Build-In Shaders\CGIncludes\AutoLight.cginc" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Normal-Bumped.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Illumin-Glossy.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResourcesExtra\Nature\TreeCreator\TreeCreatorLeavesFastOptimized.shader" />
+     <None Include="Assets\Shaders\CustomTess.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Reflect-VertexLit.shader" />
+     <None Include="Assets\ats Package\readme_treeBarkShader.txt" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\AlphaTest-Bumped.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Internal-PrePassCollectShadows.shader" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Sources\Shaders\FX-Water.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\TerrainShaders\Details\WavingGrassBillboard.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Particle Blend.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResourcesExtra\Unlit\Unlit-AlphaTest.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResourcesExtra\Lightmap-Bumped.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResourcesExtra\Mobile\Mobile-Lightmap-Unlit.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Alpha-Diffuse.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResourcesExtra\Lightmap-Diffuse.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResourcesExtra\Unlit\Unlit-Alpha.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResourcesExtra\Nature\TreeCreator\TreeCreatorLeavesRendertex.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResourcesExtra\Mobile\Mobile-Particle-Add.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResourcesExtra\Nature\SoftOcclusion\TreeSoftOcclusionLeavesRendertex.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResourcesExtra\Mobile\Mobile-BumpSpec.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\AlphaTest-BumpSpec.shader" />
+     <None Include="Assets\Shaders\PostProcess\GammaCorrection.shader" />
+     <None Include="Assets\Shaders\GS Billboard.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Font.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Internal-Clear.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Normal-Diffuse.shader" />
+     <None Include="Assets\Shaders\RimLight\Chest_Shader.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResourcesExtra\Lightmap-VertexLit.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Reflect-Glossy.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Illumin-Diffuse.shader" />
+     <None Include="Assets\Build-In Shaders\CGIncludes\UnityShaderVariables.cginc" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Particle MultiplyDouble.shader" />
+     <None Include="Assets\Shaders\FloorShader.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResourcesExtra\Nature\Terrain\TerrBumpFirstPass.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResourcesExtra\Nature\SoftOcclusion\SH_Vertex.cginc" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Particle AddSmooth.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Skybox.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Internal-GUITexture.shader" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Normal-Glossy.shader" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-Water4.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Particle AddMultiply.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\TerrainShaders\Details\WavingGrass.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResourcesExtra\Mobile\Mobile-Diffuse.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\AlphaTest-SoftEdgeUnlit.shader" />
+     <None Include="Assets\Shaders\PhongTes.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResourcesExtra\Mobile\Mobile-Bumped.shader" />
+     <None Include="Assets\Shaders\PostProcess\ImageEffect.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Normal-DiffuseDetail.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Particle Alpha Blend.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Illumin-VertexLit.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Illumin-BumpSpec.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Alpha-VertexLit.shader" />
+     <None Include="Assets\Build-In Shaders\DefaultResources\Alpha-Glossy.shader" />
+     <None Include="Assets\Build-In Shaders\CGIncludes\TerrainEngine.cginc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{D3E59B45-4F13-86AC-B24D-EE4344DA1E61}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{5A3AF46B-9BE4-FA85-C216-459FC1282285}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
